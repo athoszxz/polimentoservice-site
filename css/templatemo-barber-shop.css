@@ -283,6 +283,24 @@ strong {
   outline: none;
 }
 
+.navbar-toggler2 {
+  background: var(--primary-color);
+  border-radius: var(--border-radius-large);
+  position: fixed;
+  top: 1;
+  bottom: 0;
+  right: 0;
+  z-index: 222;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  margin: 25px;
+  margin-bottom: 30vh;
+  width: 75px;
+  height: 75px;
+  outline: none;
+}
+
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
